@@ -1,0 +1,6 @@
+Genetic algorithms (evo_main.rb) bp based on "gga4r" ruby gem (by Sergio Espeja).
+
+Dependencies: narray and gnuplot ruby gems
+Launch: 
+"ruby1.9.1 /path/to/tau-ga/folder/main.rb" 
+in the shell.
