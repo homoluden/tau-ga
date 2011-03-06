@@ -5,3 +5,5 @@ Dependencies: narray and gnuplot ruby gems
 Launch: 
 "ruby1.9.1 /path/to/tau-ga/folder/main.rb" 
 in the shell.
+
+Contacts: asm@metaphysics-it.net
