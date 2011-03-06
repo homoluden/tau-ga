@@ -1,4 +1,5 @@
-Genetic algorithms (evo_main.rb) bp based on "gga4r" ruby gem (by Sergio Espeja).
+The aim of this project is identification of dynamical systems. Main target is to create robust algorithms for automatic calculation of transfer function coefficients for many classes of dynamic systems.
+Genetic algorithms (evo_main.rb) based on "gga4r" ruby gem (by Sergio Espeja) is used for multiparameter functional optimization. SSF - transfer function and state-space library is also used to work with mathematical models.
 
 Dependencies: narray and gnuplot ruby gems
 Launch: 
