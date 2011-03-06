@@ -20,12 +20,9 @@ end
 def step_response(filter)
   @@test_filter.reset
   filter.reset
-  x = []; 100.times { |i| x << i*@@ts }
-  test_y,y = [],[]
-  100.times {
-    test_y << @@test_filter.step(@@test_input)
-    y << filter.step(@@test_input)
-  }
+  x = Array.new(100) {|i| i*@@ts}
+  test_y = Array.new(100) {@@test_filter.step(@@test_input)}
+  y = Array.new(100) {filter.step(@@test_input)}
   return x,test_y,y
 end
 
